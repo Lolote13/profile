@@ -1,0 +1,144 @@
+body {
+  /*font-family: 'Amatic SC', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;*/
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #463e7d;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 40px
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 65px 0px 40px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card.header {
+  background: #eee;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+  border-radius: 50%;
+}
+
+.devise {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.sub-header p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hobbies img {
+  width: 250px;
+}
+
+#mathieu {
+  width : 180px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-no-style {
+  list-style: none;
+}
+
+.inline-list {
+  display: inline;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+i {
+  margin-right: 5px;
+}
+
+table {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: #463e7d;
+}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+}
+
+.w3-display-container {
+    position: relative;
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-purple {
+  color: white;
+  background: #463e7d;
+  margin : 15px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-purple a, .btn-purple a:hover, .btn-purple a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}

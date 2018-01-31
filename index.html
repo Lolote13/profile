@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lo profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card header text-center">
+      <img src="./images/laurie_GALERON.png" alt="lo avatar">
+      <div class="sub-header">
+        <h1>Lo Profile</h1>
+        <p class="text-center devise">Welcome on my profile, be curious!</p>
+        <ul class="center list-no-style mt50 mb50">
+          <li class="inline-list btn-purple"><a href="mailto:laurie.galeron@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>E-mail me</a></li>
+          <li class="inline-list btn-purple"><a href="https://www.linkedin.com/in/laurie-galeron-b2b0a828/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a></li>
+          <li class="inline-list btn-purple"><a href="https://www.facebook.com/lo.lolote.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card hobbies text-center">
+      <h2>- Activités - Hobbies - Occupations -</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td><img id="mathieu" src="./images/mathieu.jpg" alt="Mathieu"></td>
+            <td><img src="./images/diy.jpg" alt="Do It yourself"></td>
+            <td><img src="./images/bad2.jpg" alt="Badminton"></td>
+            <td><img src="./images/ovni.jpg" alt="Association OVNI"></td>
+          </tr>
+          <tr>
+            <td>Famille</td>
+            <td>Bricolage</td>
+            <td>Badminton</td>
+            <td>Association OVNI</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card slideshow text-center">
+      <h2>Detailed description</h2>
+      <div class="w3-content w3-display-container">
+        <img class="mySlides" src="./images/IMG_3008.jpg" style="width:100%">
+        <img class="mySlides" src="./images/IMG_3882.jpg" style="width:100%">
+        <img class="mySlides" src="./images/79FIELOUX.jpg" style="width:100%">
+        <img class="mySlides" src="./images/IMG_4515.jpg" style="width:100%">
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</body>
+</html>
